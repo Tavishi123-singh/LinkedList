@@ -5,7 +5,7 @@ import SinglyLinkedList.node.Node;
 public class MySinglyLinkedList {
     Node head;
     public MySinglyLinkedList() {
-        head=null
+        head=null;
     }
 
     public Node getHead() {

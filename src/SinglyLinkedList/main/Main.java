@@ -9,8 +9,13 @@ public class Main {
         obj.insertAtBeginning(200);
         obj.Print();
         obj.insertAtLast(1000);
+        obj.insertAtLast(2000);
         obj.Print();
         obj.deleteFromBeginning();
-
+        obj.Print();
+        obj.deleteFromBeginning();
+        obj.Print();
+        obj.deleteFromLast();
+        obj.Print();
     }
 }
