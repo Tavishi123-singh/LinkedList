@@ -63,7 +63,7 @@ public class MyDoublyLinkedList {
         return res;
     }
     public void Print(){
-        System.out.print("Printing List-------");
+        System.out.println("Printing List-------");
         Node temp=head;
         while (temp!=null){
             System.out.print(temp.getData());
