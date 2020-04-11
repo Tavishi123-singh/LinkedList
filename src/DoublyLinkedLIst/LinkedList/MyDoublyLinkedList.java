@@ -14,7 +14,7 @@ public class MyDoublyLinkedList {
             head=node;
         }
         else{
-            head.getPrevious(node);
+            head.setPrevious(node);
             node.setNext(head);
             head=node;
         }
@@ -63,7 +63,7 @@ public class MyDoublyLinkedList {
         return res;
     }
     public void Print(){
-        System.out.println("Printing List-------");
+        System.out.print("Printing List-------");
         Node temp=head;
         while (temp!=null){
             System.out.print(temp.getData());
