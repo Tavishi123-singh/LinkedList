@@ -1,3 +1,7 @@
+/*
+ * Created by Intellij IDEA
+ * User: Tavishi123-singh
+ */
 package DoublyLinkedLIst.node;
 
 public class Node {
